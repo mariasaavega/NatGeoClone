@@ -1,0 +1,65 @@
+.simple-card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 700px) {
+  .simple-card {
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+  }
+}
+
+.card-footer {
+  background-color: white;
+  color: black;
+  height: 50%;
+}
+
+.card-footer h3 {
+  display: flex;
+  text-align: left;
+  margin-left: 1rem;
+  font-size: medium;
+}
+.card-footer h4 {
+  display: flex;
+  text-align: left;
+  margin-left: 1rem;
+  font-size: small;
+  margin-bottom: 5px;
+  color: #686868;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.left-header {
+  height: 50%;
+  background-image: url("https://i.natgeofe.com/n/9d9f57e2-3ef5-40b5-bd35-d45fcfe1f43e/notre-dame-thumbnail_4x3.jpg?w=620&h=466");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.left-header:hover {
+  background-size: 300px;
+  background-position: center;
+  border-bottom: 4px solid #fc0;
+}
+
+.right-header {
+  height: 70% !important;
+  background-image: url("https://i.natgeofe.com/n/60aa8e31-f480-447a-af55-12634df93dbf/NGM-January-Cover-Image-Homepage-Promo-730x564_4x3.jpg?w=620&h=466");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.right-header:hover {
+  background-size: 300px;
+  background-position: center;
+  border-bottom: 4px solid #fc0;
+}

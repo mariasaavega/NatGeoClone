@@ -1,0 +1,57 @@
+.card {
+  width: 100%;
+  height: 370px;
+  background-image: url("https://i.natgeofe.com/n/8e54f52f-13f8-439a-bad9-2dc9438f5174/MM9295_201219_07119.jpg?w=1133.999969959259&h=978.2999740839005");
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border-bottom: 4px solid #fc0;
+  border-right: 4px solid #fc0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  background-size: 800px;
+  background-position: center;
+}
+
+.card h4 {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 13rem;
+  margin-bottom: 0;
+}
+.card h3 {
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  font-size: 2.5rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 800px;
+    height: 430px;
+  }
+  .card h4 {
+    margin-top: 18rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    display: inline;
+    width: max-content;
+    height: 400px;
+  }
+  .card h4 {
+    margin-top: 18rem;
+  }
+}

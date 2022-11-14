@@ -1,0 +1,30 @@
+.articles {
+  width: 35%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .articles {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .articles {
+    width: 100%;
+  }
+}
+
+.news-title {
+  padding-left: 0px;
+  color: white;
+  border-left: 4px solid #fc0;
+  font-size: 32px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.see-all {
+  margin-top: 2rem;
+  display: flex;
+  width: 21%;
+  letter-spacing: 2px;
+}

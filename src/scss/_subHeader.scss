@@ -1,0 +1,33 @@
+p {
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+a {
+  margin-right: 0.3rem;
+  border-bottom: 0.5rem;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid #fc0;
+}
+
+a:hover {
+  background: #fc0;
+  color: black;
+}
+
+a {
+  transition: background 0.3s linear;
+}
+
+.bar {
+  border-bottom: 4px solid #fc0;
+  width: 4%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
